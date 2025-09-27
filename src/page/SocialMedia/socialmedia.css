@@ -1,0 +1,438 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.social-media{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("../../assets/Images/socialmedia.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+}
+
+.socialmedia-overall{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #000000c4;
+}
+
+.dark{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialmedia-left{
+    width: 50%;
+    padding: 20px;
+}
+
+.socialmedia-left div{
+    width: 80%;
+    margin: auto;
+}
+
+.socialmedia-left div h1{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.5;
+    background: linear-gradient(90deg, #FFF 0%, #3A393D 101.62%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.socialmedia-left div p{
+        color: #B7B7B8;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.socialmedia-left div button{
+    color: #FFF !important;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3 !important;
+    background: url(https://i.23robo.info/projects/growfollows/img/btn-dots.webp), linear-gradient(180deg, #CD36E7 0%, #7D19AF 100%);
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: 0px 8px 7.3px 0px rgba(255, 255, 255, 0.21) inset;
+    background-size: cover;
+    background-position: center;
+    position: relative !important;
+    border: 1px solid rgba(255, 255, 255, 0.56) !important;
+    min-width: 160px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+.socialmedia-right{
+    width: 50%;
+}
+
+.content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.services{
+    border-radius: 50px;
+    background: #130315;
+    box-shadow: 0px 0px 9.3px 0px rgba(255, 255, 255, 0.22) inset;
+    padding: 12px 22px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    width: max-content;
+    margin: 40px 0 20px 0;
+    position: relative;
+    color: #CD36E7;
+}
+
+.services h2{
+    background: linear-gradient(90deg, #CD36E7 0%, #7D19AF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-left: 5px;
+}
+
+.content h1{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1.5;
+    background: linear-gradient(90deg, #FFF 0%, #3A393D 101.62%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.content p{
+    margin: auto;
+    width: 65%;
+    text-align: center;
+    color: #B7B7B8;
+    line-height: 30px;
+}
+
+.boxs{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.box-left{
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.07);
+    background: linear-gradient(180deg, #0D070F 0%, #0C040E 100%);
+    position: relative;
+    overflow: hidden;
+    padding: 45px 35px;
+    width: 70%;
+}
+
+.box-left span{
+    content: '';
+    width: 677.6px;
+    height: 125px;
+    border-radius: 677.6px;
+    background: #CD36E7;
+    filter: blur(100px);
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: -75px;
+    z-index: 0;
+}
+
+.box-left h1{
+    margin-top: 20px;
+}
+
+.box-left p{
+    margin-top: 10px;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.box-right{
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.07);
+    background: linear-gradient(180deg, #0D070F 0%, #0C040E 100%);
+    position: relative;
+    overflow: hidden;
+    padding: 45px 35px;
+}
+
+.box-right span{
+    content: '';
+    width: 677.6px;
+    height: 125px;
+    border-radius: 677.6px;
+    background: #CD36E7;
+    filter: blur(100px);
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: -75px;
+    z-index: 0;
+}
+
+.box-right h2{
+    margin-top: 20px;
+}
+
+.boxs-to{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.boxs-left{
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.07);
+    background: linear-gradient(180deg, #0D070F 0%, #0C040E 100%);
+    position: relative;
+    overflow: hidden;
+}
+
+.boxs-left img{
+    display: block;
+    margin: 17px auto auto;
+    z-index: 1;
+    position: relative;
+}
+
+.boxs-left div {
+    padding: 20px 25px;
+    background: linear-gradient(180deg, #0D070F 0%, #0C040E 100%);
+}
+
+.boxs-left span{
+        content: '';
+    width: 470px;
+    height: 125px;
+    border-radius: 677.6px;
+    background: #CD36E7;
+    filter: blur(100px);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 90px;
+    margin: auto;
+    bottom: -75px;
+    z-index: 0;
+}
+
+.boxs-right{
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.07);
+    background: linear-gradient(180deg, #0D070F 0%, #0C040E 100%);
+    position: relative;
+    overflow: hidden;
+    padding: 30px 30px ;
+}
+
+.boxs-in{
+    position: relative;
+    padding: 42px 35px;
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.07);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 15px;
+}
+
+.boxs-in span{
+    content: '';
+    width: 470px;
+    height: 125px;
+    border-radius: 470px;
+    background: #CD36E7;
+    filter: blur(100px);
+    position: absolute;
+    right: -20px;
+    bottom: -62px;
+    z-index: 0;
+}
+
+.txt{
+    text-align: center;
+}
+
+.txt div{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 10px double white;
+    padding: 10px;
+    margin-bottom: 15px;
+    align-content: center;
+}
+
+.txt a{
+    font-size: 10px;
+}
+
+@media screen and (max-width:1260px) and (min-width:1000px) {
+    .socialmedia-right div img{
+        width: 500px;
+        height: 500px;
+        object-fit: contain;
+    }
+    .box-left{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:1000px) and (min-width:700px) {
+    .socialmedia-right div img{
+        width: 500px;
+        height: 500px;
+        object-fit: contain;
+    }
+    .dark{
+        flex-direction: column;
+    }
+    .socialmedia-left{
+        width: 100%;
+    }
+    .socialmedia-right{
+        width: 100%;
+        text-align: center;
+    }
+    .content p{
+        line-height: 25px;
+    }
+    .box-left{
+        width: 100%;
+    }
+    .box-left img{
+        width: 100%;
+    }
+    .box-left h1{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:700px) and (min-width:500px) {
+    .socialmedia-right div img{
+        width: 450px;
+        height: 450px;
+        object-fit: contain;
+    }
+    .dark{
+        flex-direction: column;
+    }
+    .socialmedia-left{
+        width: 100%;
+    }
+    .socialmedia-right{
+        width: 100%;
+        text-align: center;
+    }
+    .content p{
+        line-height: 20px;
+        font-size: 13px;
+    }
+    .box-left{
+        width: 100%;
+    }
+    .box-left img{
+        width: 100%;
+    }
+    .box-left h1{
+        font-size: 30px;
+    }
+    .box-left p{
+        font-size: 11px;
+    }
+    .content{
+        padding: 0 20px 0 20px;
+    }
+    .boxs-left img{
+        width: 400px;
+    }
+    .txt div{
+        width: 95px;
+        height: 95px;
+    }
+}
+
+@media screen and (max-width:500px) and (min-width:320px) {
+    .socialmedia-right div img{
+        width: 300px;
+        height: 300px;
+        object-fit: contain;
+    }
+    .dark{
+        flex-direction: column;
+    }
+    .socialmedia-left{
+        width: 100%;
+    }
+    .socialmedia-right{
+        width: 100%;
+        text-align: center;
+    }
+    .content p{
+        line-height: 20px;
+        font-size: 13px;
+        margin: 0px;
+        width: 100%;
+    }
+    .box-left{
+        width: 100%;
+    }
+    .box-left img{
+        width: 100%;
+    }
+    .box-left h1{
+        font-size: 15px;
+    }
+    .box-left p{
+        font-size: 7px;
+        line-height: 13px;
+    }
+    .content{
+        padding: 0 20px 0 20px;
+    }
+    .boxs-left img{
+        width: 270px;
+    }
+    .txt div{
+        width: 95px;
+        height: 95px;
+    }
+    .services h2{
+        font-size: 15px;
+    }
+    .content h1{
+        font-size: 23px;
+    }
+    .boxs-in{
+        flex-direction: column;
+    }
+    .boxs-in span{
+        top: 55%;
+    }
+}

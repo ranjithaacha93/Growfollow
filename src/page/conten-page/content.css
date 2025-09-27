@@ -1,0 +1,404 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.rise{
+    width: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+    overflow: hidden;
+    background: linear-gradient(180deg, #290A33 0%, #0C040E 100%);
+    padding-top: 75px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rise-left{
+    width: 35%;
+    padding: 0px 0px 0 80px;
+}
+
+.rise-right{
+    width: 65%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.rise-span{
+    border-radius: 50px;
+    background: #130315;
+    box-shadow: 0px 0px 9.3px 0px rgba(255, 255, 255, 0.22) inset;
+    padding: 12px 22px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    width: max-content;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.rise-left h1{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1.5;
+    background: linear-gradient(90deg, #FFF 0%, #3A393D 101.62%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+}
+
+.rise-left button{
+    padding: 0 !important;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color: #FFF !important;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3 !important;
+    background: url(https://i.23robo.info/projects/growfollows/img/btn-dots.webp), linear-gradient(180deg, #CD36E7 0%, #7D19AF 100%);
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: 0px 8px 7.3px 0px rgba(255, 255, 255, 0.21) inset;
+    background-size: cover;
+    background-position: center;
+    position: relative !important;
+    border: 1px solid rgba(255, 255, 255, 0.56) !important;
+    min-width: 160px;
+    border-radius: 50px;
+    max-width: 160px;
+}
+
+.smal-one{
+    width: 200px;
+    height: 225px;
+    border-top-left-radius: 10px;
+    padding: 30px 15px 15px 15px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    background: #0D070F;
+    border-bottom: 0;
+}
+
+.smal-two{
+    width: 200px;
+    height: 255px;
+    border-top-left-radius: 10px;
+    padding: 30px 15px 15px 15px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    background: #0D070F;
+    border-bottom: 0;
+}
+
+.smal-three{
+    width: 200px;
+    height: 290px;
+    border-top-left-radius: 10px;
+    padding: 30px 15px 15px 15px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    background: #0D070F;
+    border-bottom: 0;
+}
+
+.smal-four{
+    width: 200px;
+    height: 320px;
+    border-top-left-radius: 10px;
+    padding: 30px 15px 15px 15px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    background: #0D070F;
+    border-bottom: 0;
+    border-top-right-radius: 10px;
+}
+
+.smal-one h4,.smal-two h4, .smal-three h4, .smal-four h4{
+    margin-top: 20px;
+}
+
+.smal-one p, .smal-two p{
+    margin-top: 25px;
+    font-size: 12px;
+    line-height: 21px;
+}
+
+.smal-three p, .smal-four p{
+    margin-top: 50px;
+    font-size: 12px;
+    line-height: 21px;
+}
+
+.smal-one:hover,.smal-two:hover,.smal-three:hover,.smal-four:hover{
+    background-color: #CD36E7;
+}
+
+.rise-right img{
+    width: 200px;
+    height: 360px;
+    position: absolute;
+    right: -50px;
+}
+
+.smm{
+    width: 100%;
+    padding: 90px 20px 20px 20px;
+    background-image: url(../../assets/Images/country-witch.webp),url(../../assets/Images/country-dots-bg.webp);
+    background-size: cover;
+    background-color: #0C040E;
+}
+
+.icon-hover{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.icon-hover a{
+    border-radius: 51px;
+    border: 1px solid #342B4D;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    overflow: hidden;
+    padding: 7px;
+    min-width: 160px;
+    text-decoration: none;
+    background: url(https://i.23robo.info/projects/growfollows/img/btn-bg-lines.webp), url(https://i.23robo.info/projects/growfollows/img/btn-dots.webp);
+    background-image: linear-gradient(180deg, #CD36E7 0%, #7D19AF 100%) !important;
+    border: 1px solid rgba(255, 255, 255, 0.56);
+}
+
+.icon-hover a span{
+    width: 44px;
+    height: 44px;
+    background: linear-gradient(180deg, #CD36E7 0%, rgba(205, 54, 231, 0.00) 100%);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    border-radius: 100px;
+    justify-content: center;
+    margin-right: 6px;
+}
+
+.icon-hover a span:hover{
+    background-color: #0C040E;
+}
+
+.facebook-box{
+    width: 80%;
+    position: relative;
+    z-index: 1;
+    padding: 30px 50px;
+    background-image: url(https://i.23robo.info/projects/growfollows/img/tab-shadow.webp);
+    background-color: #130315;
+    background-repeat: no-repeat;
+    background-position: 560px 30px;
+    margin: auto;
+    margin-top: 3%;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.facebook-left{
+    width: 60%;
+}
+
+.facebook-right{
+    width: 40%;
+    text-align: center;
+}
+
+.facebook-left h1{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.5;
+    background: linear-gradient(90deg, #FFF 0%, #3A393D 101.62%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.facebook-left p{
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+.facebook-left button{
+    padding: 0;
+    align-content: center;
+    color: #FFF !important;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3 !important;
+    background: url(https://i.23robo.info/projects/growfollows/img/btn-dots.webp), linear-gradient(180deg, #CD36E7 0%, #7D19AF 100%);
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: 0px 8px 7.3px 0px rgba(255, 255, 255, 0.21) inset;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border: 1px solid rgba(255, 255, 255, 0.56);
+    min-width: 160px;
+    border-radius: 50px;
+    max-width: 160px;
+    margin-top: 40px;
+}
+
+@media screen and (max-width:1400px) and (min-width:1000px) {
+    .smal-one,.smal-two,.smal-three,.smal-four{
+        width: 170px;
+    }
+    .rise-right img{
+        height: 200px;
+        width: 160px;
+        bottom: 0;
+        object-fit: contain;
+        right: 20px;
+    }
+    .rise-left h1{
+        font-size: 25px;
+    }
+    .facebook-box{
+        padding-top: 20px;
+    }
+    .facebook-left p{
+        margin-top: 0px;
+    }
+    .facebook-left button{
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width:1000px) and (min-width:700px) {
+    .rise{
+        flex-direction: column;
+    }
+    .rise-left{
+        width: 100%;
+    }
+    .rise-right{
+        width: 100%;
+    }
+    .rise-right img{
+        height: 200px;
+        width: 160px;
+        bottom: 0;
+        object-fit: contain;
+    }
+    .facebook-box{
+        padding: 45px 20px 20px 30px;
+    }
+    .facebook-right img{
+        width: 150px;
+        height: 150px;
+    }
+    .facebook-left h1{
+        font-size: 25px;
+    }
+    .smm{
+        background-size: contain;
+    }
+}
+
+@media screen and (max-width:700px) and (min-width:500px) {
+    .rise{
+        flex-direction: column;
+    }
+    .rise-left{
+        width: 100%;
+    }
+    .rise-right{
+        width: 100%;
+    }
+    .rise-right img{
+        height: 120px;
+        width: 140px;
+        bottom: 0;
+        object-fit: contain;
+        right: -50px;
+    }
+    .facebook-box{
+        padding: 45px 20px 20px 30px;
+        margin: 30px 0 0 0;
+        width: 100%;
+    }
+    .facebook-right img{
+        width: 150px;
+        height: 150px;
+    }
+    .facebook-left h1{
+        font-size: 25px;
+    }
+    .smm{
+        background-size: contain;
+    }
+    .facebook-left button{
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width:500px) and (min-width:320px) {
+    .rise{
+        flex-direction: column;
+    }
+    .rise-left{
+        width: 100%;
+        padding-left: 20px;
+    }
+    .rise-right{
+        width: 100%;
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+    .smal-one,.smal-two,.smal-three,.smal-four{
+        width: 100%;
+        height: 35vh;
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+    .rise-right img{
+        height: 120px;
+        width: 140px;
+        bottom: 0;
+        object-fit: contain;
+        right: -50px;
+    }
+    .facebook-box{
+        padding: 45px 20px 20px 30px;
+        margin: 30px 0 0 0;
+        width: 100%;
+        flex-direction: column;
+        height: auto;
+    }
+    .facebook-left,.facebook-right{
+        width: 100%;
+    }
+    .facebook-right{
+        padding-top: 40px;
+    }
+    .facebook-right img{
+        width: 150px;
+        height: 150px;
+    }
+    .facebook-left h1{
+        font-size: 25px;
+    }
+    .smm{
+        background-size: contain;
+    }
+    .facebook-left button{
+        margin-top: 15px;
+        max-width: 200px;
+    }
+}

@@ -1,0 +1,355 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home{
+    width: 100%;
+    background-image: url(https://i.23robo.info/projects/growfollows/img/top-bg.webp);
+    background-size: covern;
+}
+
+.dork{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.877);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-icon-div{
+    width: 6%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-icon-div span{
+    font-size: 25px;
+    background: linear-gradient(90deg, #CD36E7 0%, #7D19AF 100%);
+    padding: 15px 15px 10px 15px;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+}
+
+.home-contend-div{
+    width: 47%;
+    padding-top: 10%;
+    padding-left: 50px;
+    padding-right: 20px;
+}
+
+.grow{
+    border-radius: 50px;
+    background: #130315;
+    box-shadow: 0px 0px 9.3px 0px rgba(255, 255, 255, 0.22) inset;
+    padding: 12px 22px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    width: max-content;
+    margin-bottom: 20px;
+}
+
+.grow{
+    background: linear-gradient(90deg, #CD36E7 0%, #7D19AF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-left: 5px;
+    font-weight: 600;
+}
+
+.grow span{
+    color: #CD36E7;
+    margin-right: 5px;
+}
+
+.home-contend-div h1{
+    font-size: 50px;
+    color: white;
+    font-family: "Parkinsans", serif;
+    margin-bottom: 20px;
+}
+
+.home-contend-div h1 span {
+    background: -webkit-linear-gradient(#CD36E7, #a322b9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.home-contend-div p{
+    margin: 0 0 10.5px;
+    color: white;
+    line-height: 30px;
+}
+
+.home-contend-div p span{
+    color: #CD36E7;
+}
+
+.home-contend-div .input-div{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.home-contend-div .input-div div{
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    background-color: #0C040E;
+    height: 9vh;
+    padding: 10px;
+    align-content: center;
+    width: 300px;
+}
+
+.home-contend-div .input-div div input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.home-contend-div .input-div div span{
+    border-radius: 30px;
+    background: linear-gradient(90deg, #CD36E7 0%, #7D19AF 100%);
+    width: 40px;
+    height: 40px;
+    transform: translateY(-50%);
+    color: white;
+    padding: 10px 5px 7px 10px;
+    margin-right: 19px;
+}
+
+.home-contend-div .contend{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.home-contend-div .contend div{
+    display: flex;
+    margin-top: 10px;
+}
+
+.home-contend-div .contend p{
+    margin: 6px 0 0 7px;
+}
+
+.sign-with-google{
+    display: flex;
+    gap: 22px;
+    row-gap: 5px;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.sign-with-google button:nth-child(1){
+    padding: 0 10px 0 10px;
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFF !important;
+    font-size: 18px;
+    font-weight: 600;
+    height: 8.4vh ;
+    background: url(https://i.23robo.info/projects/growfollows/img/btn-dots.webp), linear-gradient(180deg, #CD36E7 0%, #7D19AF 100%);
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: 0px 8px 7.3px 0px rgba(255, 255, 255, 0.21) inset;
+    background-size: cover;
+    background-position: center;
+    position: relative !important;
+    border: 1px solid rgba(255, 255, 255, 0.56) !important;
+    min-width: 265px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.sign-with-google button:nth-child(2){
+    height: 9vh;
+    min-width: 265px;
+    padding: 0;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    border-radius: 3.125rem;
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    background: url(https://i.23robo.info/projects/growfollows/img/social-slide-bg.webp), linear-gradient(179deg, rgba(13, 7, 15, 0.60) -23.71%, rgba(12, 4, 14, 0.60) 99.14%);
+    background-position: center bottom, center;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.home-img-div{
+    width: 47%;
+    padding-top: 6%;
+}
+
+.icon-div{
+    width: 100%;
+    background: linear-gradient(180deg, #0d001a, #1a001f);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 70px;
+    padding: 20px 10px 20px 10px;
+}
+
+.icon-div div{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+.icon-div div span{
+    font-size: 30px;
+}
+
+.icon-div div p{
+    margin-top: 5px;
+}
+
+@media screen and (max-width:1215px) and (min-width:980px) {
+    .home-img-div img{
+        width: 450px;
+    }
+    .home-icon-div span{
+        font-size: 17px;
+    }
+    .icon-div{
+        gap: 40px;
+    }
+    .icon-div div span{
+        font-size: 25px;
+    }
+    .icon-div div p{
+        font-size: 13px;
+    }
+    .home-contend-div p{
+        line-height: 25px;
+    }
+}
+
+@media screen and (max-width:980px) and (min-width:700px) {
+    .dork{
+        flex-direction: column;
+    }
+    .home-icon-div{
+        position: absolute;
+        top: 20%;
+        right: 15px;
+    }
+    .home-contend-div{
+        width: 100%;
+        padding: 20% 80px 0 30px
+    }
+    .home-img-div{
+        width: 100%;
+        text-align: center;
+    }
+    .home-img-div img{
+        width: 450px;
+    }
+    .home{
+        background-size: cover;
+    }
+    .icon-div div span{
+        font-size: 20px;
+    }
+    .icon-div div p{
+        font-size: 14px;
+    }
+    .icon-div{
+        gap: 25px;
+    }
+}
+
+@media screen and (max-width:700px) and (min-width:500px) {
+    .dork{
+        flex-direction: column;
+    }
+    .home-icon-div{
+        position: absolute;
+        top: 20%;
+        right: 15px;
+    }
+    .home-contend-div{
+        width: 100%;
+        padding: 20% 80px 0 30px
+    }
+    .home-img-div{
+        width: 100%;
+        text-align: center;
+    }
+    .home-img-div img{
+        width: 450px;
+    }
+    .home{
+        background-size: cover;
+    }
+    .icon-div div span{
+        font-size: 20px;
+    }
+    .icon-div div p{
+        font-size: 14px;
+    }
+    .icon-div{
+        gap: 25px;
+    }
+}
+
+@media screen and (max-width:500px) and (min-width:320px) {
+    .dork{
+        flex-direction: column;
+    }
+    .home-icon-div{
+        position: absolute;
+        top: 20%;
+        right: 20px;
+    }
+    .home-contend-div{
+        width: 100%;
+        padding: 32% 30px 0 30px;
+    }
+    .home-img-div{
+        width: 100%;
+        text-align: center;
+    }
+    .home-img-div img{
+        width: 250px;
+    }
+    .home{
+        background-size: cover;
+    }
+    .icon-div div span{
+        font-size: 20px;
+    }
+    .icon-div div p{
+        font-size: 14px;
+    }
+    .icon-div{
+        gap: 25px;
+    }
+    .home-contend-div p{
+        line-height: 25px;
+    }
+    .home-icon-div span{
+        font-size: 17px;
+        padding: 10px 10px 5px 10px;
+    }
+}
